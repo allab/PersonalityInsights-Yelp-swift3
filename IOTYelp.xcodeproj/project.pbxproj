@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31B7EF853771D7CEE388D261 /* Pods_IOTYelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75021FC78C6ED0B1D2C34F2 /* Pods_IOTYelp.framework */; };
+		5D5ACAC81DDB66E400C14552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAC71DDB66E400C14552 /* AppDelegate.swift */; };
+		5D5ACACA1DDB66E400C14552 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAC91DDB66E400C14552 /* PreferencesViewController.swift */; };
+		5D5ACACF1DDB66E400C14552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5ACACD1DDB66E400C14552 /* Main.storyboard */; };
+		5D5ACAD11DDB66E400C14552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5ACAD01DDB66E400C14552 /* Assets.xcassets */; };
+		5D5ACAD41DDB66E400C14552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5ACAD21DDB66E400C14552 /* LaunchScreen.storyboard */; };
+		5D5ACADF1DDB66E400C14552 /* IOTYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACADE1DDB66E400C14552 /* IOTYelpTests.swift */; };
+		5D5ACAEA1DDB8D2F00C14552 /* YelpAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAE91DDB8D2F00C14552 /* YelpAPIController.swift */; };
+		5D5ACAED1DDCA5BC00C14552 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5ACAEC1DDCA5BC00C14552 /* Security.framework */; };
+		5D5ACAEF1DDCA5C600C14552 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5ACAEE1DDCA5C600C14552 /* CoreLocation.framework */; };
+		5D5ACAF11DDCA6A200C14552 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAF01DDCA6A200C14552 /* Keychain.swift */; };
+		5D5ACAF31DDD37CA00C14552 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAF21DDD37CA00C14552 /* Business.swift */; };
+		5D5ACAF91DDE40DF00C14552 /* PersonalityInsightsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5ACAF81DDE40DF00C14552 /* PersonalityInsightsAPI.swift */; };
+		5D71F0551DE36E56007DCDB8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F0541DE36E56007DCDB8 /* CollectionViewCell.swift */; };
+		5D71F0581DE38352007DCDB8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F0571DE38352007DCDB8 /* Category.swift */; };
+		5D71F05D1DE4CBD3007DCDB8 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F05C1DE4CBD3007DCDB8 /* ResultsTableViewController.swift */; };
+		5D71F05F1DE4CD3D007DCDB8 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F05E1DE4CD3D007DCDB8 /* ResultsTableViewCell.swift */; };
+		5D71F0641DE619D6007DCDB8 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F0631DE619D6007DCDB8 /* BusinessDetailViewController.swift */; };
+		5D71F0661DE633AA007DCDB8 /* CategoriesLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D71F0651DE633AA007DCDB8 /* CategoriesLayout.swift */; };
+		9A5CFB1D5AD5EF87AFA0F492 /* Pods_IOTYelpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F77EDF23704BD72C387685 /* Pods_IOTYelpTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D5ACADB1DDB66E400C14552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D5ACABC1DDB66E400C14552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D5ACAC31DDB66E400C14552;
+			remoteInfo = IOTYelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013222284E090125890A13C0 /* Pods-IOTYelpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTYelpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOTYelpTests/Pods-IOTYelpTests.release.xcconfig"; sourceTree = "<group>"; };
+		07F77EDF23704BD72C387685 /* Pods_IOTYelpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTYelpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		115AD789CD22B505F1B09D15 /* Pods-IOTYelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTYelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOTYelp/Pods-IOTYelp.release.xcconfig"; sourceTree = "<group>"; };
+		28EFBBC3F64CC13435026E11 /* Pods-IOTYelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTYelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOTYelp/Pods-IOTYelp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5ACAC41DDB66E400C14552 /* IOTYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5ACAC71DDB66E400C14552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D5ACAC91DDB66E400C14552 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		5D5ACACE1DDB66E400C14552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D5ACAD01DDB66E400C14552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D5ACAD31DDB66E400C14552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D5ACAD51DDB66E400C14552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5ACADA1DDB66E400C14552 /* IOTYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOTYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D5ACADE1DDB66E400C14552 /* IOTYelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOTYelpTests.swift; sourceTree = "<group>"; };
+		5D5ACAE01DDB66E400C14552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5ACAE91DDB8D2F00C14552 /* YelpAPIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpAPIController.swift; sourceTree = "<group>"; };
+		5D5ACAEC1DDCA5BC00C14552 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5D5ACAEE1DDCA5C600C14552 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5D5ACAF01DDCA6A200C14552 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		5D5ACAF21DDD37CA00C14552 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		5D5ACAF81DDE40DF00C14552 /* PersonalityInsightsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalityInsightsAPI.swift; sourceTree = "<group>"; };
+		5D5ACAFA1DDE4FF200C14552 /* IOTYelp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IOTYelp.entitlements; sourceTree = "<group>"; };
+		5D71F0541DE36E56007DCDB8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5D71F0571DE38352007DCDB8 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../Category.swift; sourceTree = "<group>"; };
+		5D71F05C1DE4CBD3007DCDB8 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		5D71F05E1DE4CD3D007DCDB8 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		5D71F0631DE619D6007DCDB8 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+		5D71F0651DE633AA007DCDB8 /* CategoriesLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesLayout.swift; sourceTree = "<group>"; };
+		5E3B43DC25AD485530A0D7C3 /* Pods-IOTYelpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOTYelpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOTYelpTests/Pods-IOTYelpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75021FC78C6ED0B1D2C34F2 /* Pods_IOTYelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOTYelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D5ACAC11DDB66E400C14552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5ACAEF1DDCA5C600C14552 /* CoreLocation.framework in Frameworks */,
+				5D5ACAED1DDCA5BC00C14552 /* Security.framework in Frameworks */,
+				31B7EF853771D7CEE388D261 /* Pods_IOTYelp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5ACAD71DDB66E400C14552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5CFB1D5AD5EF87AFA0F492 /* Pods_IOTYelpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5ACABB1DDB66E400C14552 = {
+			isa = PBXGroup;
+			children = (
+				5D5ACAC61DDB66E400C14552 /* IOTYelp */,
+				5D5ACADD1DDB66E400C14552 /* IOTYelpTests */,
+				5D5ACAC51DDB66E400C14552 /* Products */,
+				5D5ACAEB1DDCA5BC00C14552 /* Frameworks */,
+				97A79FFA88EE94495D5D0799 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5D5ACAC51DDB66E400C14552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D5ACAC41DDB66E400C14552 /* IOTYelp.app */,
+				5D5ACADA1DDB66E400C14552 /* IOTYelpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D5ACAC61DDB66E400C14552 /* IOTYelp */ = {
+			isa = PBXGroup;
+			children = (
+				5D71F0591DE3835D007DCDB8 /* CustomClasses */,
+				5D5ACAFA1DDE4FF200C14552 /* IOTYelp.entitlements */,
+				5D5ACAC71DDB66E400C14552 /* AppDelegate.swift */,
+				5D71F0561DE373DA007DCDB8 /* APIControllers */,
+				5D5ACAC91DDB66E400C14552 /* PreferencesViewController.swift */,
+				5D5ACACD1DDB66E400C14552 /* Main.storyboard */,
+				5D71F0671DE63527007DCDB8 /* CollectionViews */,
+				5D5ACAD01DDB66E400C14552 /* Assets.xcassets */,
+				5D5ACAD21DDB66E400C14552 /* LaunchScreen.storyboard */,
+				5D5ACAD51DDB66E400C14552 /* Info.plist */,
+				5D71F05C1DE4CBD3007DCDB8 /* ResultsTableViewController.swift */,
+				5D71F05E1DE4CD3D007DCDB8 /* ResultsTableViewCell.swift */,
+				5D71F0631DE619D6007DCDB8 /* BusinessDetailViewController.swift */,
+			);
+			path = IOTYelp;
+			sourceTree = "<group>";
+		};
+		5D5ACADD1DDB66E400C14552 /* IOTYelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D5ACADE1DDB66E400C14552 /* IOTYelpTests.swift */,
+				5D5ACAE01DDB66E400C14552 /* Info.plist */,
+			);
+			path = IOTYelpTests;
+			sourceTree = "<group>";
+		};
+		5D5ACAEB1DDCA5BC00C14552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D5ACAEE1DDCA5C600C14552 /* CoreLocation.framework */,
+				5D5ACAEC1DDCA5BC00C14552 /* Security.framework */,
+				F75021FC78C6ED0B1D2C34F2 /* Pods_IOTYelp.framework */,
+				07F77EDF23704BD72C387685 /* Pods_IOTYelpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D71F0561DE373DA007DCDB8 /* APIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D5ACAE91DDB8D2F00C14552 /* YelpAPIController.swift */,
+				5D5ACAF81DDE40DF00C14552 /* PersonalityInsightsAPI.swift */,
+			);
+			name = APIControllers;
+			sourceTree = "<group>";
+		};
+		5D71F0591DE3835D007DCDB8 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5D71F0571DE38352007DCDB8 /* Category.swift */,
+				5D5ACAF01DDCA6A200C14552 /* Keychain.swift */,
+				5D5ACAF21DDD37CA00C14552 /* Business.swift */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		5D71F0671DE63527007DCDB8 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D71F0651DE633AA007DCDB8 /* CategoriesLayout.swift */,
+				5D71F0541DE36E56007DCDB8 /* CollectionViewCell.swift */,
+			);
+			name = CollectionViews;
+			sourceTree = "<group>";
+		};
+		97A79FFA88EE94495D5D0799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28EFBBC3F64CC13435026E11 /* Pods-IOTYelp.debug.xcconfig */,
+				115AD789CD22B505F1B09D15 /* Pods-IOTYelp.release.xcconfig */,
+				5E3B43DC25AD485530A0D7C3 /* Pods-IOTYelpTests.debug.xcconfig */,
+				013222284E090125890A13C0 /* Pods-IOTYelpTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D5ACAC31DDB66E400C14552 /* IOTYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5ACAE31DDB66E400C14552 /* Build configuration list for PBXNativeTarget "IOTYelp" */;
+			buildPhases = (
+				4B9ED1326F18B5E791B76F8B /* [CP] Check Pods Manifest.lock */,
+				5D5ACAC01DDB66E400C14552 /* Sources */,
+				5D5ACAC11DDB66E400C14552 /* Frameworks */,
+				5D5ACAC21DDB66E400C14552 /* Resources */,
+				BCDA2D6E74D4752D8A721995 /* [CP] Embed Pods Frameworks */,
+				85C0D83264E3B9ED2C3E4908 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOTYelp;
+			productName = IOTYelp;
+			productReference = 5D5ACAC41DDB66E400C14552 /* IOTYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D5ACAD91DDB66E400C14552 /* IOTYelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5ACAE61DDB66E400C14552 /* Build configuration list for PBXNativeTarget "IOTYelpTests" */;
+			buildPhases = (
+				0D2C105C37FDAA3384CEE0FC /* [CP] Check Pods Manifest.lock */,
+				5D5ACAD61DDB66E400C14552 /* Sources */,
+				5D5ACAD71DDB66E400C14552 /* Frameworks */,
+				5D5ACAD81DDB66E400C14552 /* Resources */,
+				D083B890336A608C9A633ABC /* [CP] Embed Pods Frameworks */,
+				8F3EFC9414E6040DF9150ED4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5ACADC1DDB66E400C14552 /* PBXTargetDependency */,
+			);
+			name = IOTYelpTests;
+			productName = IOTYelpTests;
+			productReference = 5D5ACADA1DDB66E400C14552 /* IOTYelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D5ACABC1DDB66E400C14552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alla Bondarenko";
+				TargetAttributes = {
+					5D5ACAC31DDB66E400C14552 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PL76JZ2VL9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					5D5ACAD91DDB66E400C14552 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PL76JZ2VL9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D5ACAC31DDB66E400C14552;
+					};
+				};
+			};
+			buildConfigurationList = 5D5ACABF1DDB66E400C14552 /* Build configuration list for PBXProject "IOTYelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D5ACABB1DDB66E400C14552;
+			productRefGroup = 5D5ACAC51DDB66E400C14552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D5ACAC31DDB66E400C14552 /* IOTYelp */,
+				5D5ACAD91DDB66E400C14552 /* IOTYelpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D5ACAC21DDB66E400C14552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5ACAD41DDB66E400C14552 /* LaunchScreen.storyboard in Resources */,
+				5D5ACAD11DDB66E400C14552 /* Assets.xcassets in Resources */,
+				5D5ACACF1DDB66E400C14552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5ACAD81DDB66E400C14552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2C105C37FDAA3384CEE0FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B9ED1326F18B5E791B76F8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85C0D83264E3B9ED2C3E4908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOTYelp/Pods-IOTYelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3EFC9414E6040DF9150ED4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOTYelpTests/Pods-IOTYelpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDA2D6E74D4752D8A721995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOTYelp/Pods-IOTYelp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D083B890336A608C9A633ABC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOTYelpTests/Pods-IOTYelpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5ACAC01DDB66E400C14552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5ACAEA1DDB8D2F00C14552 /* YelpAPIController.swift in Sources */,
+				5D71F0551DE36E56007DCDB8 /* CollectionViewCell.swift in Sources */,
+				5D71F0641DE619D6007DCDB8 /* BusinessDetailViewController.swift in Sources */,
+				5D71F05D1DE4CBD3007DCDB8 /* ResultsTableViewController.swift in Sources */,
+				5D71F0661DE633AA007DCDB8 /* CategoriesLayout.swift in Sources */,
+				5D71F05F1DE4CD3D007DCDB8 /* ResultsTableViewCell.swift in Sources */,
+				5D5ACAC81DDB66E400C14552 /* AppDelegate.swift in Sources */,
+				5D5ACAF91DDE40DF00C14552 /* PersonalityInsightsAPI.swift in Sources */,
+				5D5ACAF31DDD37CA00C14552 /* Business.swift in Sources */,
+				5D71F0581DE38352007DCDB8 /* Category.swift in Sources */,
+				5D5ACACA1DDB66E400C14552 /* PreferencesViewController.swift in Sources */,
+				5D5ACAF11DDCA6A200C14552 /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5ACAD61DDB66E400C14552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D5ACADF1DDB66E400C14552 /* IOTYelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5ACADC1DDB66E400C14552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D5ACAC31DDB66E400C14552 /* IOTYelp */;
+			targetProxy = 5D5ACADB1DDB66E400C14552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D5ACACD1DDB66E400C14552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5ACACE1DDB66E400C14552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D5ACAD21DDB66E400C14552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D5ACAD31DDB66E400C14552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D5ACAE11DDB66E400C14552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D5ACAE21DDB66E400C14552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D5ACAE41DDB66E400C14552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EFBBC3F64CC13435026E11 /* Pods-IOTYelp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOTYelp/IOTYelp.entitlements;
+				DEVELOPMENT_TEAM = PL76JZ2VL9;
+				INFOPLIST_FILE = IOTYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allab.IOTYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D5ACAE51DDB66E400C14552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115AD789CD22B505F1B09D15 /* Pods-IOTYelp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IOTYelp/IOTYelp.entitlements;
+				DEVELOPMENT_TEAM = PL76JZ2VL9;
+				INFOPLIST_FILE = IOTYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allab.IOTYelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5D5ACAE71DDB66E400C14552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3B43DC25AD485530A0D7C3 /* Pods-IOTYelpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PL76JZ2VL9;
+				INFOPLIST_FILE = IOTYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allab.IOTYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOTYelp.app/IOTYelp";
+			};
+			name = Debug;
+		};
+		5D5ACAE81DDB66E400C14552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013222284E090125890A13C0 /* Pods-IOTYelpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PL76JZ2VL9;
+				INFOPLIST_FILE = IOTYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allab.IOTYelpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOTYelp.app/IOTYelp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D5ACABF1DDB66E400C14552 /* Build configuration list for PBXProject "IOTYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5ACAE11DDB66E400C14552 /* Debug */,
+				5D5ACAE21DDB66E400C14552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5ACAE31DDB66E400C14552 /* Build configuration list for PBXNativeTarget "IOTYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5ACAE41DDB66E400C14552 /* Debug */,
+				5D5ACAE51DDB66E400C14552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5ACAE61DDB66E400C14552 /* Build configuration list for PBXNativeTarget "IOTYelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D5ACAE71DDB66E400C14552 /* Debug */,
+				5D5ACAE81DDB66E400C14552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D5ACABC1DDB66E400C14552 /* Project object */;
+}
