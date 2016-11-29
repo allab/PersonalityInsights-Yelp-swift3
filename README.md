@@ -17,4 +17,14 @@ A valid category search field list: https://www.yelp.ca/developers/documentation
 * Personality Insights Instance. Login to https://console.ng.bluemix.net and create Personality Insights Service Instance. Access usename/password info under Service Credentials tab. Authentication Type - Basic.
 
 
+## Facebook SDK and SwiftKeychainWrapper via cocoapods
+
+Add a pod file to your project https://cocoapods.org and add the following dependencies 
+- pod 'FacebookCore'
+-	pod 'FacebookLogin'
+- pod 'FacebookShare'
+-	pod 'SwiftKeychainWrapper'
+
+
+
 
