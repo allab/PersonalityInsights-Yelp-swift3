@@ -1,8 +1,7 @@
 
 # PersonalityInsights-Yelp-swift3
- Demo iOS app on integration of Personality Insights Bluemix Service Instance with Yelp API
+ Demo iOS app on integration of Personality Insights Bluemix Service Instance with Yelp API. App is integrated with Facebook iOS SDK and is using user's posts as a data source for personality insights service. Application suggests places nearby based on user consumption preferences and a search term provided.
 
-Application is a demo 
 
 ## Setting up the services
 To run an app, register the following API applications
@@ -24,7 +23,5 @@ Add a pod file to your project https://cocoapods.org and add the following depen
 -	pod 'FacebookLogin'
 - pod 'FacebookShare'
 -	pod 'SwiftKeychainWrapper'
-
-
 
 
