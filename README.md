@@ -25,3 +25,6 @@ Add a pod file to your project https://cocoapods.org and add the following depen
 -	pod 'SwiftKeychainWrapper'
 
 
+## Screens
+
+<img src="/screens/PreferencesVC.png?raw=true" height="350" alt="Preferences View Controller Screen">    <img src="/screens/ResultsTableVC.png?raw=true" height="350" alt="Results Table View Controller Screen">    <img src="/screens/BusinessDetailsVC.png?raw=true" height="350" alt="Business Details View Controller Screen">
